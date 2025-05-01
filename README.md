@@ -16,7 +16,7 @@ Este **programa está fuertemente orientado a la seguridad**. Por tanto, todo bu
 1. Clona el repositorio: 
 
 ```bash
-git clone $URL
+git clone https://github.com/fcuejur0712/PPS05.git
 ```
 
 2. Sitúate en el directorio del proyecto:
@@ -38,7 +38,7 @@ python3 main.py
 
 - Nombre: Fernando Cuenca
 
-- GitHub: 
+- GitHub: fcuejur0712
 
 - Correo: fcuejur0712@g.educaand.es
 
