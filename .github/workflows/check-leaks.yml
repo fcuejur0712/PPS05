@@ -1,0 +1,13 @@
+name: Comprobar fugas
+on: [push]
+jobs:
+  Comprobar-Fugas:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Clonando repositorio ${{ github.repository }} a la VM ${{ runner.os }}"
+      - name: Clonar repositorio
+        uses: actions/checkout@v4
+      - name: Listar archivos en el repositorio
+        run: ls ${{ github.workspace }}
+      - name: Ejecutar gitleaks
+        uses: gitleaks/gitleaks-action@v2
